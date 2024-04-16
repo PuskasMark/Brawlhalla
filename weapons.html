@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brawlhalla - Weapons</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="css/weapons.css">-->
+    <link rel="stylesheet" href="css/style.css" title="style">
+    <link rel="alternate stylesheet" type="text/css" href="css/nagybetus.css" title="nagybetus">
+
+</head>
+<body>
+    <nav class="kipozicional">
+        <a href="#content">Jump to content</a>
+      </nav>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-dark bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="img/Logo2.png" alt="NavLogo" height="36"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link" href="gamemodes.html">Gamemodes</a>
+                <a class="nav-link" href="legends.html">Legends</a>
+                <a class="nav-link active" href="weapons.html">Weapons</a>
+                </div>
+                <div class="navr navbar-nav ms-auto">
+                    <a class="nav-link" id="nagybetu" href="#" onclick="setActiveStyleSheet('nagybetus'); return false;"><span class="ikon"></span>Big font version</a>
+                    <a class="nav-link" id="normalbetu" href="#" onclick="setActiveStyleSheet('style'); return false;"><span class="ikon"></span>Normal version</a>
+                  </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <main id="content">
+    <article class="p-3 bg-secondary text-white mb-3">
+        <h1>Weapons</h1>
+        <p>
+            Weapons are an important element of Brawlhalla. Each weapon has a different <b>moveset</b> and each character has access to <b>two</b> weapon types. Weapons work similarly for every Legend that uses them, but each Legend has a set of <b>3 Signature Moves</b>, or "Sigs" as they are frequently called, for each weapon, a set of distinct heavy attacks that are exclusive to a Legend. No two Legends have the same usable weapon combination.
+        </p>
+    </article>
+    <article class="star leaf pt-5 p-4 p-md-5 mx-md-5">
+        <h2>List of Weapons</h2>
+        <ul>
+            <li><strong>Grapple Hammer</strong> - A bulky brute-force weapon with a few grappling properties.</li>
+            <li><strong>Sword</strong> - A short-ranged melee with an arsenal of rapid, small attacks with decent knockback.</li>
+            <li><strong>Blasters</strong> - A dual-wielded gun-like weapon with long-range attacks that can be strung together.</li>
+            <li><strong>Rocket Lance</strong> - A rather invasive weapon with a lot of power. Very useful in aerial situations.</li>
+            <li><strong>Spear</strong> - A quick weapon with a relatively far range that can easily knock opponents around.</li>
+            <li><strong>Katars</strong> - A fast, close-range, dual knife-like weapon, with attacks that have little knockback but can be easily strung together.</li>
+            <li><strong>Axe</strong> - A big, relatively slow, heavy-hitting weapon with large knockback.</li>
+            <li><strong>Bow</strong> - A ranged weapon with a projectile that shoots out surprisingly fast.</li>
+            <li><strong>Gauntlets</strong> - A fast, close-range, low damage weapon with light attacks that easily connect with other attacks that physically move your opponent.</li>
+            <li><strong>Scythe</strong> - A weapon that features “Active Input” on a number of its attacks, most possessing grappling effects, for unpredictable combos.</li>
+            <li><strong>Cannon</strong> - A heavy-hitting weapon with surprisingly nimble blows and a wide range of attack.</li>
+            <li><strong>Orb</strong> - An unconventional magic-based weapon that's easy to control with quick attacks.</li>
+            <li><strong>Greatsword</strong> - A large, two-handed sword with a unique moveset that allows for powerful light attacks and many string possibilities.</li>
+            <li><strong>Battle Boots</strong> - A set of two heavy boots with intricate kick combos and active input attacks.</li>
+        </ul>
+    </article>
+    <article class="p-5 gainsboro leaf mx-md-5 mt-3">
+            <h2>Weapon mechanics</h2>
+            <hr>
+            <h3>Picking up</h3>
+            <p>
+                Weapon pickups are flaming swords of light that will appear at random intervals at random places within the map while brawling. When interacted with by a Legend, these turn into <b>weapons</b>, which can be used in combat.
+            </p>
+            <p>
+                The first weapon pickup's spawn is dependent on the gamemode; in 1v1 modes, the first pickup will spawn in the center of the map, and in 2v2 modes, a pickup will spawn on each side. Otherwise, weapon pickups will spawn in random locations, typically after two consecutive gadget pickups. Weapon pickups alternate, so that your pickups are always a different weapon from the last one picked up. Like Gadgets, an untouched pickup will remain on stage for approximately <b>20 seconds</b> before disappearing, and will flash for several seconds right before it is about to do so.
+            </p>
+            <p>
+                When using the Sidekick Summoner, your sidekick will bring a weapon pickup to your location.
+            </p>
+        <h3>Attacking</h3>
+        <p>
+            Each weapon comes with a moveset of <b>three Ground Light Attacks</b>, <b>three Aerial Light Attacks</b>, three <b>Ground Heavy Attacks</b> and two <b>Aerial Heavy Attacks</b>. The Ground Heavy Attacks also serve as each Legend's Signature Moves, which are unique to each Legend - giving each Legend <b>six</b> moves that cannot be done by any other Legend. For each weapon's moveset.
+        </p>
+        <h3>Throwing</h3>
+        <p>
+            Weapons themselves can be <b>thrown</b> during combat using the Throw action, similar to Gadgets. Different thrown weapons have differently sized <b>hitboxes</b>, and can be <b>charged</b> to make the weapon throw faster, deal more knockback and more damage. All weapons have the same speed when thrown, excluding Hammer and Spear who have 0.85 and 1.1 times the normal speed, respectively.
+        </p>
+        <p>
+            Thrown weapons will <b>bounce</b> slightly against surfaces, and do damage for up to two bounces against the ground after they are thrown. After the second bounce, the weapon won't hurt any Legend it touches.
+        </p>
+        <p>
+            When a weapon is thrown and lands on the stage, it will remain on the stage for about one second after it has come to a stop before disappearing. At any point before it has disappeared, the thrown weapon can be picked up again by the Legend who threw it.
+        </p>
+        <p>
+            Thrown weapons cannot be picked up or caught by another Legend, even if the Legend uses the same weapons or is the same Legend as the one throwing the weapon.
+        </p>
+        <p>
+            Weapon throws will <b>pass through</b> enemies if the thrower is stunned from an attack and the weapon was thrown less than 25 frames (~0.83 seconds) earlier. This is referred to as a "throw clash".
+        </p>
+        <h3>Losing your weapon</h3>
+        <p>
+            Any Legend holding a weapon has a chance of <b>losing</b> it when they have taken enough damage during a fight, and if they are struck by a <b>powerful</b> enough attack. A combined threshold of total damage taken (while holding the current weapon) and an incoming attack's force (which increases as a Legend's health builds to red) determines the limit at which a Legend will be disarmed. Picking up another weapon resets the damage taken half of the threshold.
+        </p>
+    </article>
+    <div class="col-11 col-lg-10 mx-auto" id="legTable">
+        <table>
+            <caption>
+                <strong>Every weapon assigned to the legends</strong>
+                <details>
+                <summary>Details</summary>
+                <p>The table shows which weapons are assigned to each legend. All the weapons are listed horizontally and vertically. The cells are red where the two weapons are the same, because no legend has the same weapon twice.</p>
+                </details>
+            </caption>
+            <tr class="bg-secondary text-white">
+                <th scope="col"></th>
+                <th scope="col">Hammer</th>
+                <th scope="col">Sword</th>
+                <th scope="col">Blasters</th>
+                <th scope="col">Rocket Lance</th>
+                <th scope="col">Spear</th>
+                <th scope="col">Katars</th>
+                <th scope="col">Axe</th>
+                <th scope="col">Bow</th>
+                <th scope="col">Gauntlets</th>
+                <th scope="col">Scythe</th>
+                <th scope="col">Cannon</th>
+                <th scope="col">Orb</th>
+                <th scope="col">Greatsword</th>
+                <th scope="col">Battle Boots</th>
+            </tr>
+            <tr>
+                <th scope="row">Hammer</th>
+                <td class="bg-danger"></td>
+                <td>Bödvar</td>
+                <td>Cassidy</td>
+                <td>Scarlet</td>
+                <td>Gnash</td>
+                <td>Sentinel</td>
+                <td>Teros</td>
+                <td>Yumiko</td>
+                <td>Kor</td>
+                <td></td>
+                <td></td>
+                <td>Thor</td>
+                <td>Magyar</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row">Sword</th>
+                <td>Bödvar</td>
+                <td class="bg-danger"></td>
+                <td>Thatch</td>
+                <td>Sir Roland</td>
+                <td>Hattori</td>
+                <td>Asuri</td>
+                <td>Jhala</td>
+                <td>Koji</td>
+                <td>Val</td>
+                <td>Jiro</td>
+                <td>Sidra</td>
+                <td>Ezio</td>
+                <td>Jaeyun</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row">Blasters</th>
+                <td>Cassidy</td>
+                <td>Thatch</td>
+                <td class="bg-danger"></td>
+                <td>Lord Vraxx</td>
+                <td>Ada</td>
+                <td>Lucien</td>
+                <td>Barraza</td>
+                <td>Diana</td>
+                <td>Cross</td>
+                <td>Nix</td>
+                <td>Isaiah</td>
+                <td>Reno</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row">Rocket Lance</th>
+                <td>Scarlet</td>
+                <td>Sir Roland</td>
+                <td>Lord Vraxx</td>
+                <td class="bg-danger"></td>
+                <td>Orion</td>
+                <td></td>
+                <td>Ulgrim</td>
+                <td>Vector</td>
+                <td></td>
+                <td>Artemis</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <th scope="row">Spear</th>
+                <td>Gnash</td>
+                <td>Hattori</td>
+                <td>Ada</td>
+                <td>Orion</td>
+                <td class="bg-danger"></td>
+                <td>Queen Nai</td>
+                <td>Brynn</td>
+                <td>Kaya</td>
+                <td>Wu Sang</td>
+                <td>Mirage</td>
+                <td></td>
+                <td>Dusk</td>
+                <td>Arcadia</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row">Katars</th>
+                <td>Sentinel</td>
+                <td>Asuri</td>
+                <td>Lucien</td>
+                <td></td>
+                <td>Queen Nai</td>
+                <td class="bg-danger"></td>
+                <td>Ragnir</td>
+                <td>Ember</td>
+                <td>Caspian</td>
+                <td></td>
+                <td>Lin Fei</td>
+                <td></td>
+                <td>Mako</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row">Axe</th>
+                <td>Teros</td>
+                <td>Jhala</td>
+                <td>Barraza</td>
+                <td>Ulgrim</td>
+                <td>Brynn</td>
+                <td>Ragnir</td>
+                <td class="bg-danger"></td>
+                <td>Azoth</td>
+                <td>Rayman</td>
+                <td>Volkov</td>
+                <td>Xull</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row">Bow</th>
+                <td>Yumiko</td>
+                <td>Koji</td>
+                <td>Diana</td>
+                <td>Vector</td>
+                <td>Kaya</td>
+                <td>Ember</td>
+                <td>Azoth</td>
+                <td class="bg-danger"></td>
+                <td>Zariel</td>
+                <td>Munin</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <th scope="row">Gauntlets</th>
+                <td>Kor</td>
+                <td>Val</td>
+                <td>Cross</td>
+                <td></td>
+                <td>Wu Sang</td>
+                <td>Caspian</td>
+                <td>Rayman</td>
+                <td>Zariel</td>
+                <td class="bg-danger"></td>
+                <td>Mordex</td>
+                <td>Onyx</td>
+                <td>Petra</td>
+                <td></td>
+                <td>Tezca</td>
+            </tr>
+            <tr>
+                <th scope="row">Scythe</th>
+                <td></td>
+                <td>Jiro</td>
+                <td>Nix</td>
+                <td>Artemis</td>
+                <td>Mirage</td>
+                <td></td>
+                <td>Volkov</td>
+                <td>Munin</td>
+                <td>Mordex</td>
+                <td class="bg-danger"></td>
+                <td></td>
+                <td>Faith</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row">Cannon</th>
+                <td></td>
+                <td>Sidra</td>
+                <td>Isaiah</td>
+                <td></td>
+                <td></td>
+                <td>Lin Fei</td>
+                <td>Xull</td>
+                <td></td>
+                <td>Onyx</td>
+                <td></td>
+                <td class="bg-danger"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row">Orb</th>
+                <td>Thor</td>
+                <td>Ezio</td>
+                <td>Reno</td>
+                <td></td>
+                <td>Dusk</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Petra</td>
+                <td>Faith</td>
+                <td></td>
+                <td class="bg-danger"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row">Greatsword</th>
+                <td>Magyar</td>
+                <td>Jaeyun</td>
+                <td></td>
+                <td></td>
+                <td>Arcadia</td>
+                <td>Mako</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="bg-danger"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row">Battle Boots</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Tezca</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="bg-danger"></td>
+            </tr>
+        </table>
+    </div>
+    </main>
+    <footer class="w-100 bg-dark p-4">
+        <p class="my-auto">@ 2023 Puskás Márk, dbonvv@inf.elte.hu</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="js/styleswitcher.js"></script>
+</body>
+</html>
