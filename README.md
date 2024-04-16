@@ -9,3 +9,6 @@ This webpage is also optimized for accessability standards.
 In this project I was meaning to showcase my creativity in design, creating an introduction to the game. 
 I filled up the pages with colorful backgrounds and style elements for an engaging look.
 The style is mainly achieved with the use of **Bootstrap**, with a little assist using **CSS**.
+
+## Try it out
+[Open in browser](https://puskasmark.github.io/Brawlhalla/)
